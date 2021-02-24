@@ -1,0 +1,60 @@
+
+EAG@A4PC11 MINGW64 /d/xampp/htdocs/proyecto_josejuan
+$ git init
+Initialized empty Git repository in D:/xampp/htdocs/proyecto_josejuan/.git/
+
+EAG@A4PC11 MINGW64 /d/xampp/htdocs/proyecto_josejuan (master)
+$ git add .
+
+EAG@A4PC11 MINGW64 /d/xampp/htdocs/proyecto_josejuan (master)
+$ git commit -m "first commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'EAG@A4PC11.(none)')
+
+EAG@A4PC11 MINGW64 /d/xampp/htdocs/proyecto_josejuan (master)
+$ git config --global user.email "josejuanvico@gmail.com^C
+
+EAG@A4PC11 MINGW64 /d/xampp/htdocs/proyecto_josejuan (master)
+$ git config --global user.email "josejuanvico@gmail.com"
+
+EAG@A4PC11 MINGW64 /d/xampp/htdocs/proyecto_josejuan (master)
+$ git commit -m "first commit"
+[master (root-commit) 330e51d] first commit
+ 2 files changed, 14 insertions(+)
+ create mode 100644 index.html
+ create mode 100644 pasos.txt
+
+EAG@A4PC11 MINGW64 /d/xampp/htdocs/proyecto_josejuan (master)
+$ git branch -M main
+
+EAG@A4PC11 MINGW64 /d/xampp/htdocs/proyecto_josejuan (main)
+$ git remote add origin https://github.com/jjvicori/josejuanpruebagit.git
+
+EAG@A4PC11 MINGW64 /d/xampp/htdocs/proyecto_josejuan (main)
+$ git push -u origin main
+Logon failed, use ctrl+c to cancel basic credential prompt.
+xcontraseñaxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 425 bytes | 425.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/jjvicori/josejuanpruebagit.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+
+
+EAG@A4PC11 MINGW64 /d/xampp/htdocs/proyecto_josejuan (main)
+$
