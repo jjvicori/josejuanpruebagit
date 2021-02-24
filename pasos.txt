@@ -11,4 +11,26 @@ y toda la carpeta del proyecto
 
 6. y te fijas en que pone en la pagina del repositorio cuando lo creas
 
-7.
+7. GIT BASH: git add . (y ya copias a partir de git commit -m "first commit", este incluido) si esto no va, ve al paso (8)
+
+8. git config --global user.email "josejuanvico@gmail.com" (si falla el paso (7))
+
+9. 
+a. git branch -M main
+b. git remote add origin https://github.com/jjvicori/josejuanpruebagit.git
+c. git push -u origin main
+d. Pones usuario y contraseña(si hiciera falta)
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+15.
+
+
