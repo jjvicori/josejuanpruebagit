@@ -1,0 +1,14 @@
+crear la carpeta de copias
+y toda la carpeta del proyecto
+
+2. te vas a la carpeta del proyecto, click derecho a la carpeta: GIT BASH
+
+3. escribes: git init
+
+4. te vas a github
+
+5. creas el repositorio
+
+6. y te fijas en que pone en la pagina del repositorio cuando lo creas
+
+7.
