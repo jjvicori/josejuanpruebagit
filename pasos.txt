@@ -21,16 +21,24 @@ b. git remote add origin https://github.com/jjvicori/josejuanpruebagit.git
 c. git push -u origin main
 d. Pones usuario y contraseña(si hiciera falta)
 
-10.
+10.hacemos cambios en proyecto
 
-11.
+11. git checkout -b "nombre de los cambios que hemos insertado sin espacios"(sin espacios)
 
-12.
+12. git add .
 
-13.
+13. git commit -m "Añadido el nuevo formulario" (se pueden espacios)
 
-14.
+14. git push (Y se sube) -- (toca poner user pass)
 
-15.
+15. 
+a. te vas a branch
+b. tocas la version que quieres comentar/ hacer algo
+c. pull request
+d. merge
+e. confirm merge
+
+
+16. FIN 
 
 
