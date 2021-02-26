@@ -43,7 +43,7 @@ $ git remote add origin https://github.com/jjvicori/josejuanpruebagit.git
 EAG@A4PC11 MINGW64 /d/xampp/htdocs/proyecto_josejuan (main)
 $ git push -u origin main
 Logon failed, use ctrl+c to cancel basic credential prompt.
-xcontraseñaxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Ervicori99
 Enumerating objects: 4, done.
 Counting objects: 100% (4/4), done.
 Delta compression using up to 12 threads
@@ -54,7 +54,57 @@ To https://github.com/jjvicori/josejuanpruebagit.git
  * [new branch]      main -> main
 Branch 'main' set up to track remote branch 'main' from 'origin'.
 
-
+EAG@A4PC11 MINGW64 /d/xampp/htdocs/proyecto_josejuan (main)
+$ Ervicori99
+bash: Ervicori99: command not found
 
 EAG@A4PC11 MINGW64 /d/xampp/htdocs/proyecto_josejuan (main)
+$ ^C
+
+EAG@A4PC11 MINGW64 /d/xampp/htdocs/proyecto_josejuan (main)
+$ git checkout -b "anadir-formulario"
+Switched to a new branch 'anadir-formulario'
+
+EAG@A4PC11 MINGW64 /d/xampp/htdocs/proyecto_josejuan (anadir-formulario)
+$ git add .
+
+EAG@A4PC11 MINGW64 /d/xampp/htdocs/proyecto_josejuan (anadir-formulario)
+$ git commit -m "Añadido el nuevo formulario"
+[anadir-formulario 9942599] A├▒adido el nuevo formulario
+ 5 files changed, 105 insertions(+), 1 deletion(-)
+ create mode 100644 Captura.PNG
+ create mode 100644 cmdcomandos.txt
+ create mode 100644 php/insertarCasa.php
+
+EAG@A4PC11 MINGW64 /d/xampp/htdocs/proyecto_josejuan (anadir-formulario)
+$ git push
+fatal: The current branch anadir-formulario has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin anadir-formulario
+
+
+EAG@A4PC11 MINGW64 /d/xampp/htdocs/proyecto_josejuan (anadir-formulario)
+$ git push --set-upstream origin anadir-formulario
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Ervicori99
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 60.27 KiB | 15.07 MiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'anadir-formulario' on GitHub by visiting:
+remote:      https://github.com/jjvicori/josejuanpruebagit/pull/new/anadir-formulario
+remote:
+To https://github.com/jjvicori/josejuanpruebagit.git
+ * [new branch]      anadir-formulario -> anadir-formulario
+Branch 'anadir-formulario' set up to track remote branch 'anadir-formulario' from 'origin'.
+
+EAG@A4PC11 MINGW64 /d/xampp/htdocs/proyecto_josejuan (anadir-formulario)
+$ Ervicori99
+bash: Ervicori99: command not found
+
+EAG@A4PC11 MINGW64 /d/xampp/htdocs/proyecto_josejuan (anadir-formulario)
 $
